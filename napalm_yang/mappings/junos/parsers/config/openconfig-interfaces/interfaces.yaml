@@ -77,3 +77,10 @@ interfaces:
                     description:
                         _process:
                             - path: description
+                    vlan:
+                        _process: unnecessary
+                        config:
+                            _process: unnecessary
+                            vlan-id:
+                                _process:
+                                    - path: vlan-id
